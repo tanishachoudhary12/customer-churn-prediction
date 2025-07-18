@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 # Load the model
-model = joblib.load('model.pkl')  # Replace with your actual model filename
+model = joblib.load('customer_churn_model.pkl')  # Replace with your actual model filename
 
 # Set title
 st.title("Customer Churn Prediction App")
